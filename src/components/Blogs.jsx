@@ -8,7 +8,7 @@ const Blogs = () => {
   const {posts , loading }= useContext(AppContext);
 
   return (
-    <div className='w-11/12 max-w-[630px]'>
+    <div className='w-11/12 max-w-[450px]'>
         {
           loading ?
           //true
