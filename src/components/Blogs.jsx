@@ -8,7 +8,7 @@ const Blogs = () => {
   const {posts , loading }= useContext(AppContext);
 
   return (
-    <div className='w-11/12 max-w-[450px] py-3 flex flex-col gap-y-4'>
+    <div className='w-11/12 max-w-[450px] py-3 flex flex-col gap-y-7'>
         {
           loading ?
           //true
@@ -25,7 +25,7 @@ const Blogs = () => {
               <div key={post.id}>
                 <p className='font-bold text-xs'>{post.title}</p>
 
-                <p>
+                <p className='text-[10px]'>
                   By <span>{post.author}</span> on <span>{post.category}</span>
                 </p>
 
