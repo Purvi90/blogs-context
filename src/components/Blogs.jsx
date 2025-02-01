@@ -8,7 +8,7 @@ const Blogs = () => {
   const {posts , loading }= useContext(AppContext);
 
   return (
-    <div className='w-11/12 max-w-[450px] py-3 flex flex-col gap-y-7'>
+    <div className='w-11/12 max-w-[670px] py-3 flex flex-col gap-y-7'>
         {
           loading ?
           //true
@@ -32,7 +32,7 @@ const Blogs = () => {
             <p className='text-[10px]'
             >Posted on {post.date}</p>
                <p className='text-[11px] mt-[10px]'>{post.content}</p>
-               <div className='flex gap-x-3'>
+               <div className='flex gap-x-5 '>
                 {post.tags.map ((tag,index)=>{
                   return <span key ={index} className='text-blue-500 underline font-bold text-[8px]'>{`#${tag}` }</span>
                 })}
