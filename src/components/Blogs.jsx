@@ -25,7 +25,7 @@ const Blogs = () => {
               <div key={post.id}>
                 <p className='font-bold text-lg'>{post.title}</p>
 
-                <p className='text-[10px]'>
+                <p className='text-xs'>
                   By <span className='italic'>{post.author}</span> on <span className='underline font-bold'>{post.category}</span>
                 </p>
 
