@@ -25,11 +25,11 @@ const Blogs = () => {
               <div key={post.id}>
                 <p className='font-bold text-lg'>{post.title}</p>
 
-                <p className='text-xs'>
+                <p className='text-sm'>
                   By <span className='italic'>{post.author}</span> on <span className='underline font-bold'>{post.category}</span>
                 </p>
 
-            <p className='text-[10px]'
+            <p className='text-sm'
             >Posted on {post.date}</p>
                <p className='text-[11px] mt-[10px]'>{post.content}</p>
                <div className='flex gap-x-5 '>
