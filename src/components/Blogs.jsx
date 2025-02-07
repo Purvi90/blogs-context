@@ -34,7 +34,7 @@ const Blogs = () => {
                <p className='text-md mt-[10px]'>{post.content}</p>
                <div className='flex gap-x-5 '>
                 {post.tags.map ((tag,index)=>{
-                  return <span key ={index} className='text-blue-500 underline font-bold text-[8px]'>{`#${tag}` }</span>
+                  return <span key ={index} className='text-blue-500 underline font-bold text-xs'>{`#${tag}` }</span>
                 })}
                </div>
                 </div>
