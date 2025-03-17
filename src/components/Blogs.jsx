@@ -29,10 +29,10 @@ const Blogs = () => {
                   By <span className='italic'>{post.author}</span> on <span className='underline font-bold'>{post.category}</span>
                 </p>
 
-            <p className='text-sm mt-[12px]'
+            <p className='text-sm mt-[11px]'
             >Posted on {post.date}</p>
                <p className='text-md mt-[14px]'>{post.content}</p>
-               <div className='flex gap-x-5 '>
+               <div className='flex gap-x-4 '>
                 {post.tags.map ((tag,index)=>{
                   return <span key ={index} className='text-blue-500 underline font-bold text-xs'>{`#${tag}` }</span>
                 })}
