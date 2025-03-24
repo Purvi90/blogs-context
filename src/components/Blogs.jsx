@@ -29,7 +29,7 @@ const Blogs = () => {
                   By <span className='italic'>{post.author}</span> on <span className='underline font-bold'>{post.category}</span>
                 </p>
 
-            <p className='text-sm mt-[11px]'
+            <p className='text-sm mt-[10px]'
             >Posted on {post.date}</p>
                <p className='text-md mt-[14px]'>{post.content}</p>
                <div className='flex gap-x-4 '>
